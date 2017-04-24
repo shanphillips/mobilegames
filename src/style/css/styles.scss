@@ -9,14 +9,16 @@ p{
 
 .navigation{
   width: 100%;
-  height: 50px;
+  height: 85px;
   background-color: black;
   color: #ffffff;
   overflow: hidden;
 }
-img {
+#topNav img {
   float: left;
-  border-radius: 2px;
+  padding-left: 20px;
+  padding-right: 20%;
+  // border-radius: 2px;
 }
 /* Styles links inside navigation */
 .navigation a {
@@ -24,12 +26,10 @@ img {
   display: block;
   color: white;
   text-align: center;
-  padding: 14px 16px;
+  padding: 29px 50px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 22px;
   font-weight: 700;
-  // padding-left: 1%;
-  // padding-right: 1%;
 }
 /* Changes the color of the links on hover */
 .navigation a:hover {
@@ -43,18 +43,27 @@ img {
 
 
 /* Search field */
-
-.input[type=text] {
-  height: 50%;
+#navIcons {
+  display: inline-flex !important;
+  margin-top: 24px;
+}
+#navIcons input[type=text] {
+  height: 40%;
   width: 130px;
   -webkit-transition: width 0.4s ease-in-out;
   transition: width 0.4s ease-in-out;
   font-family: 'AvertaRegular', Helvetica Neue, Helvetica, Arial, san-serif !important;
-  margin-top: 11px;
+  margin-left: 50%;
+  margin-right: 15%;
   padding: 14px 16px;
+  border-radius: 2px;
 }
 
 /* When input field gets focus, change its width to 100% */
-input[type=text]:focus {
+#navIcons input[type=text]:focus {
   width: 10%;
+}
+#navIcons img{
+  // float: right !important;
+  // padding-left: 5% !important;
 }
