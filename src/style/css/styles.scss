@@ -1,11 +1,15 @@
 body{
   font-family: 'AvertaRegular', Helvetica Neue, Helvetica, Arial, san-serif !important;
+  background-color: black;
+}
+body, html {
+  height: 100%
 }
 p{
   color: white;
 }
 
-/*        Top navigation    */
+/*                                 Top navigation                                    */
 
 .navigation{
   width: 100%;
@@ -69,3 +73,23 @@ p{
 }
 
 /*                      Container                 */
+.parallax {
+    height: 100%;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+/*                      Footer                  */
+
+footer{
+   height: 5%;
+}
+footer h5 {
+  color: white;
+  text-align: center;
+}
