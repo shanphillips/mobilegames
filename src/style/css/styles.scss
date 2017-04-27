@@ -47,12 +47,31 @@ p{
 
 
 /* Search field */
-
-
-
-
-
-
+#navIcons {
+  // display: inline-flex !important;
+  // width: 20%;
+  // margin-top: 24px;
+}
+#navIcons input[type=text] {
+  width: 130px;
+  border: 2px solid #000;
+  border-radius: 4px;
+  background-color: white;
+  background-image: url('src/lib/img/Search-Icon.png');
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  // margin-left: 50%;
+  // margin-right: 15%;
+  // padding: 14px 16px;
+  // border-radius: 2px;
+}
+/* When input field gets focus, change its width to 100% */
+#navIcons input[type=text]:focus {
+  width: 100%;
+}
 /*                      Container                 */
 .parallax {
     height: 100%;
