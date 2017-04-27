@@ -47,30 +47,11 @@ p{
 
 
 /* Search field */
-#navIcons {
-  display: inline-flex !important;
-  margin-top: 24px;
-}
-#navIcons input[type=text] {
-  height: 40%;
-  width: 130px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
-  font-family: 'AvertaRegular', Helvetica Neue, Helvetica, Arial, san-serif !important;
-  margin-left: 50%;
-  margin-right: 15%;
-  padding: 14px 16px;
-  border-radius: 2px;
-}
 
-/* When input field gets focus, change its width to 100% */
-#navIcons input[type=text]:focus {
-  width: 10%;
-}
-#navIcons img{
-  // float: right !important;
-  // padding-left: 5% !important;
-}
+
+
+
+
 
 /*                      Container                 */
 .parallax {
