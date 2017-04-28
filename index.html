@@ -13,6 +13,7 @@
   <div class="navigation" id="topNav">
     <img src="src/lib/img/SIS-Logo-New.png" alt="SIS Logo" style="width:95px; height:85px">
     <input type="text" id="name" onKeyUp="printName()" onClick="clickTextBox()"/>
+    <input type="text" id="comment' "onclick="clickTextBox()" onshow="commentBox()"/>
     <a href="#about">ABOUT</a>
     <a href="#library">LIBRARY</a>
     <a href="#featured">FEATURED</a>
@@ -103,6 +104,12 @@
     var element = document.getElementById("name")
     element.value = "shan is awesome";
     element.style.backgroundColor = "red";
+  }
+
+  function commentBox() {
+    var element = document.getElementById("comment")
+    console.dir(element);
+    console.log(element);
   }
   </script>
 
