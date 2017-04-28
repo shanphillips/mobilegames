@@ -1,4 +1,4 @@
-455<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <meta charset="UFT-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,35 +12,84 @@
 
   <div class="navigation" id="topNav">
     <img src="src/lib/img/SIS-Logo-New.png" alt="SIS Logo" style="width:95px; height:85px">
+    <input type="text" id="name" onKeyUp="printName()" onClick="clickTextBox()"/>
     <a href="#about">ABOUT</a>
     <a href="#library">LIBRARY</a>
     <a href="#featured">FEATURED</a>
     <a href="#store">STORE</a>
     <a href="#support">SUPPORT<a>
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
-    <div id="navIcons">
-      <input type="text" name="search" placeholder="Search...">
-      <!-- <img src="src/lib/img/User-Icon.png" alt="User/Admin" style="width:35px; height:35px"> -->
-    </div>
   </div>
 
 <!--      SlideShow/Carousel -->
 
-  <div class="parallax"></div>
-  <div style="height:1000px;background-image: url('src/lib/img/Fifa17.jpg');font-size:36px">
-    SIS GAMING
+  <div class="slideshow-container">
+    <div class="mySlides fade">
+      <img src="src/lib/img/Halo-bgd.jpg" style="width:100%">
+      <div class="text halo">SIS PRESENTS
+      <h1>SIS GAMING</h1></div>
+    </div>
+    <div class="mySlides fade">
+      <img src="src/lib/img/Infinite-Racing.jpg" style="width:100%">
+      <div class="text racing"><h1>SIS INFINITE RACING</h1>
+      Our new exciting on-demain racing game allows you to play whenever you want</div>
+    </div>
+    <div class="mySlides fade">
+      <img src="src/lib/img/Fifa17.jpg" style="width:100%">
+      <div class="text fifa"><h1>MAKING THE JOURNEY</h1>Experience the journey, influenced by
+      real players, locations and events. See behind the scenes with authenticity consultant
+    Borussia Dortmund's <b>Marco Reus</b>.</div>
+    </div>
   </div>
-  <div class="parallax"></div>
+  <br>
 
+  <div style="text-align:center">
+    <span class="dot"></span>
+    <span class="dot"></span>
+    <span class="dot"></span>
+  </div>
 
+  <script>
+  var slideIndex = 0;
+  showSlides();
 
+  function showSlides() {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      var dots = document.getElementsByClassName("dot");
+      for (i = 0; i < slides.length; i++) {
+         slides[i].style.display = "none";
+      }
+      slideIndex++;
+      if (slideIndex> slides.length) {slideIndex = 1}
+      for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";
+      dots[slideIndex-1].className += " active";
+      setTimeout(showSlides, 5000); // Change image every 2 seconds
+  }
+
+  function printName() {
+    console.dir(document)
+    var element = document.getElementById("name")
+    console.dir(element);
+    console.log(element);
+    console.log(element.value);
+  }
+
+  function clickTextBox() {
+    var element = document.getElementById("name")
+    element.value = "shan is awesome";
+    element.style.backgroundColor = "red";
+  }
+  </script>
 
 <!--      Footer -->
 <footer>
     <h5>SIS Mobile Games Lobby</h5>
 </footer>
-<script>
-</script>
+
 
 </body>
 </html>
