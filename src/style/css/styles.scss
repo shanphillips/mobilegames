@@ -61,8 +61,8 @@ img {
 /* Caption text */
 .text {
   color: #ffffff;
-  font-size: 20px;
-  padding: 5px 5px;
+  font-size: 16px;
+  padding: 10px 10px;
   position: absolute;
   width: 15%;
   text-align: center;
@@ -70,10 +70,11 @@ img {
 .text h1 {
   font-size: 40px;
   font-weight: bolder;
+  text-align: center;
   color: white !important;
 }
 .text p{
-  font-size: 20px;
+  font-size: 16px;
   font-weight: lighter;
   color: white !important;
 }
@@ -130,6 +131,19 @@ img {
 @media only screen and (max-width: 300px) {
   .text {font-size: 11px}
 }
+
+/*    What's New    */
+
+.whats-new {
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+  padding-left: 20px;
+  background-image: url(src/lib/img/Beam-FadedBgd.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
 /*                      Footer                  */
 
 footer{
