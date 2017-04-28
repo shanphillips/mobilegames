@@ -1,5 +1,4 @@
 body{
-
   font-family: 'Averta', sans-serif;
   background-color: black;
 }
@@ -63,38 +62,46 @@ img {
 .text {
   color: #ffffff;
   font-size: 20px;
-  padding: 14px 14px;
+  padding: 5px 5px;
   position: absolute;
   width: 15%;
   text-align: center;
 }
 .text h1 {
-  font-size: 46px;
+  font-size: 40px;
   font-weight: bolder;
+  color: white !important;
+}
+.text p{
+  font-size: 20px;
+  font-weight: lighter;
+  color: white !important;
 }
 .halo{
   top: 245px;
   background-color: #000000;
-  opacity: 0.6;
+  opacity: 0.8;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 .racing{
+  bottom: 40px;
+  right: 0;
   background-color: #000000;
-  opacity: 0.6;
+  opacity: 0.8;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 .fifa{
   top: 230px;
-  float: right;
+  right: 0;
   background-color: #000000;
-  opacity: 0.6;
+  opacity: 0.8;
   filter: alpha(opacity=60); /* For IE8 and earlier */
 }
 
 /* The dots/bullets/indicators */
 .dot {
-  height: 13px;
-  width: 13px;
+  height: 14px;
+  width: 14px;
   margin: 0 2px;
   background-color: #bbb;
   border-radius: 50%;
