@@ -136,14 +136,31 @@ img {
 
 .whats-new {
   max-width: 100%;
+  max-height: 1000px;
   position: relative;
   margin: auto;
   padding-left: 20px;
-  background-image: url(src/lib/img/Beam-FadedBgd.png);
+  background-image: url("/src/lib/img/Beam-FadedBgd.png");
   background-position: center;
   background-repeat: no-repeat;
 }
-
+.whats-new h2 {
+  color: white;
+  font-weight: bolder;
+}
+.whats-new p {
+  font-weight: lighter;
+}
+.whats-new h4 {
+  color: #CDF41B;
+}
+.left{
+  width: 60%;
+}
+.right{
+  float: right;
+  width: 40%;
+}
 /*                      Footer                  */
 
 footer{
