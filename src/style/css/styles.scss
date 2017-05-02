@@ -5,7 +5,7 @@ body{
 body, html {
   height: 100%
 }
-p{
+p {
   color: white;
 }
 /*                                 Top navigation                                    */
@@ -45,95 +45,30 @@ p{
   display: none;
 }
 
-input  #comment{
+input[type=text] #comment{
   height: 50px;
 }
 
 /*                      Container                 */
 
-.mySlides {display:none}
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
+.slide-viewer {
   position: relative;
-  margin: auto;
-  padding-left: 20px;
+  overflow: hidden;
+  height: 1000px;
 }
-img {
-  max-height: 1000px;
+.slide-group {
+  width: 100%;
+  height: 100%;
+  position: relative;
 }
-/* Caption text */
-.text {
-  color: #ffffff;
-  font-size: 16px;
-  padding: 10px 10px;
+.slide {
+  width: 100%;
+  height: 100%;
+  display: none;
   position: absolute;
-  width: 15%;
-  text-align: center;
 }
-.text h1 {
-  font-size: 40px;
-  font-weight: bolder;
-  text-align: center;
-  color: white !important;
-}
-.text p{
-  font-size: 16px;
-  font-weight: lighter;
-  color: white !important;
-}
-.halo{
-  top: 245px;
-  background-color: #000000;
-  opacity: 0.8;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-.racing{
-  bottom: 40px;
-  right: 0;
-  background-color: #000000;
-  opacity: 0.8;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-.fifa{
-  top: 230px;
-  right: 0;
-  background-color: #000000;
-  opacity: 0.8;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-}
-
-/* The dots/bullets/indicators */
-.dot {
-  height: 14px;
-  width: 14px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-.active {
-  background-color: #717171;
-}
-/* Fading animation */
-.fade {
-  -webkit-animation-name: fade;
-  -webkit-animation-duration: 1.5s;
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-@-webkit-keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-@keyframes fade {
-  from {opacity: .4}
-  to {opacity: 1}
-}
-/* On smaller screens, decrease text size */
-@media only screen and (max-width: 300px) {
-  .text {font-size: 11px}
+slide:first-child {
+  display: block;
 }
 
 /*    What's New    */
