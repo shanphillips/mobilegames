@@ -12,8 +12,6 @@
 
   <div class="navigation" id="topNav">
     <img src="src/lib/img/SIS-Logo-New.png" alt="SIS Logo" style="width:95px; height:85px">
-    <input type="text" id="name" onKeyUp="printName()" onClick="clickTextBox()"/>
-    <input type="text" id="comment' "onclick="clickTextBox()" onshow="newBox()"/>
     <a href="#about">ABOUT</a>
     <a href="#library">LIBRARY</a>
     <a href="#featured">FEATURED</a>
@@ -38,37 +36,7 @@
 </div>
 <div class="slide buttons"></div>
 
-
-
-
->
-  <!-- <div class="slideshow-container">
-    <div class="mySlides fade">
-      <img src="src/lib/img/Halo-bgd.jpg" style="width:100%">
-      <div class="text halo"><p>SIS PRESENTS</p>
-      <h1>SIS GAMING</h1></div>
-    </div>
-    <div class="mySlides fade">
-      <img src="src/lib/img/6-Racing.jpg" style="width:100%">
-      <div class="text racing"><h1>SIS INFINITE RACING</h1><p>Our new exciting on-demand
-         racing game allows you to play whenever you want</p></div>
-    </div>
-    <div class="mySlides fade">
-      <img src="src/lib/img/Fifa17.jpg" style="width:100%">
-      <div class="text fifa"><h1>MAKING THE JOURNEY</h1><p>Experience the journey, influenced by
-      real players, locations and events. See behind the scenes with authenticity consultant
-      Borussia Dortmund's <b>Marco Reus</b></p></div>
-    </div>
-  </div>
-  <br>
-
-  <div style="text-align:center">
-    <span class="dot"></span>
-    <span class="dot"></span>
-    <span class="dot"></span>
-  </div> -->
-
-  <div class="whats-new">
+<div class="section-one">
     <div class="uppercontent">
       <div class="uppercontent left">
         <h2>Play Whenever You Want</h2>
@@ -83,59 +51,17 @@
           combinations.</p>
         <h4>Learn more > </h4>
       </div>
-      <div class="uppercontent right"
-        <img src="src/lib/img/Gaming-tablet.png" style="auto">
+      <div class="uppercontent right">
+        <img src="src/lib/img/Gaming-tablet.png" style="auto" width="585px" height="380px">
       </div>
+    </div>
+    <div class="lowercontent">
+
     </div>
   </div>
 
+<div class
   <script>
-  var slideIndex = 0;
-  showSlides();
-
-  function showSlides() {
-      var i;
-      var slides = document.getElementsByClassName("mySlides");
-      var dots = document.getElementsByClassName("dot");
-      for (i = 0; i < slides.length; i++) {
-         slides[i].style.display = "none";
-      }
-      slideIndex++;
-      if (slideIndex> slides.length) {slideIndex = 1}
-      for (i = 0; i < dots.length; i++) {
-          dots[i].className = dots[i].className.replace(" active", "");
-      }
-      slides[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " active";
-      setTimeout(showSlides, 20000); // Change image every 2 seconds
-  }
-
-  function printName() {
-    console.dir(document)
-    var element = document.getElementById("name")
-    console.dir(element);
-    console.log(element);
-    console.log(element.value);
-  }
-
-  function clickTextBox() {
-    var element = document.getElementById("name")
-    element.value = "shan is awesome";
-    element.style.backgroundColor = "red";
-  }
-
-  function newBox() {
-    console.dir(document)
-    var element = document.getElementById("comment")
-    console.dir(element);
-    console.log(element);
-  }
-
-  function
-
-
-
-
   </script>
 
 <!--      Footer -->

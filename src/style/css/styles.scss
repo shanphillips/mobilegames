@@ -16,10 +16,11 @@ p {
   background-color: black;
   color: #ffffff;
   overflow: hidden;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 #topNav img {
   float: left;
-  padding-left: 20px;
   padding-right: 20%;
   // border-radius: 2px;
 }
@@ -40,7 +41,7 @@ p {
   background-color: #cdf41b;
   color: black;
 }
-/* Hides the links that should open and close the navigation on small screens */
+/* Hides the links that should open and close the navigation on the small screens */
 .navigation .icon {
   display: none;
 }
@@ -60,20 +61,22 @@ input[type=text] #comment{
   width: 100%;
   height: 100%;
   position: relative;
+  padding-left: 1%;
+  padding-right: 1%;
 }
 .slide {
   width: 100%;
   height: 100%;
-  display: none;
+  // display: none;
   position: absolute;
 }
-slide:first-child {
+.slide:first-child {
   display: block;
 }
 
 /*    What's New    */
 
-.whats-new {
+.section-one {
   max-width: 100%;
   max-height: 1000px;
   position: relative;
@@ -83,22 +86,30 @@ slide:first-child {
   background-position: center;
   background-repeat: no-repeat;
 }
-.whats-new h2 {
+.uppercontent{
+  display: inline-flex;
+  margin-top: 1%;
+}
+.section-one h2 {
   color: white;
+  font-size: 30px;
   font-weight: bolder;
 }
-.whats-new p {
+.section-one p {
+  font-size: 20px;
   font-weight: lighter;
 }
-.whats-new h4 {
+.section-one h4 {
   color: #CDF41B;
+  font-weight: normal;
 }
 .left{
-  width: 60%;
+  width: 50%;
+  display: inline-block;
 }
 .right{
   float: right;
-  width: 40%;
+  width: 50%;
 }
 /*                      Footer                  */
 
