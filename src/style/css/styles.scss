@@ -97,17 +97,17 @@ input[type=text] #comment{
   font-size: 30px;
   font-weight: bolder;
 }
-.section-one p {
-  font-size: 22px;
-  font-weight: lighter;
-  text-align: justify;
-}
 .section-one h4 {
   color: #CDF41B;
   font-weight: normal;
 }
+.uppercontent p {
+  font-size: 22px;
+  font-weight: lighter;
+  text-align: justify;
+}
 .left{
-  width: 50%;
+  width: 55%;
   display: inline-block;
 }
 #rectangle {
@@ -117,11 +117,11 @@ input[type=text] #comment{
 }
 .right{
   float: right;
-  width: 50%;
+  width: 45%;
 }
 .right img {
   margin-top: 3%;
-  margin-left: 25%;
+  margin-left: 27%;
 }
 /*    Lower Section    */
 .lowercontent h2 {
@@ -129,19 +129,24 @@ input[type=text] #comment{
 }
 .lowercontent h5 {
   color: white !important;
-  font-size: 22px
+  font-size: 22px;
   font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 0px;
 }
 .lowercontent p {
-  font-size: 10px !important;
+  font-size: 16px;
+  font-weight: lighter;
+  margin-bottom: 0px;
+  margin-top: 0px;
 }
 .cars {
   display: inline-block;
-  margin-right: 10%;
+  margin-right: 9%;
 }
 .horses {
   display: inline-block;
-    margin-right: 10%;
+    margin-right: 9%;
 }
 .bikes {
   display: inline-block;
