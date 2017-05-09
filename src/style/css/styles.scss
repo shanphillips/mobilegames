@@ -96,8 +96,9 @@ input[type=text] #comment{
   font-weight: bolder;
 }
 .section-one p {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: lighter;
+  text-align: justify;
 }
 .section-one h4 {
   color: #CDF41B;
@@ -107,9 +108,18 @@ input[type=text] #comment{
   width: 50%;
   display: inline-block;
 }
+#rectangle {
+  width: 500px;
+  height: 8px;
+  background: #CDF41B;
+}
 .right{
   float: right;
   width: 50%;
+}
+.right img {
+  margin-top: 3%;
+  margin-left: 25%;
 }
 /*                      Footer                  */
 
