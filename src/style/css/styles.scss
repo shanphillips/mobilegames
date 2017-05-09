@@ -74,7 +74,7 @@ input[type=text] #comment{
   display: block;
 }
 
-/*    What's New    */
+/*    Section One    */
 
 .section-one {
   max-width: 100%;
@@ -86,6 +86,8 @@ input[type=text] #comment{
   background-position: center;
   background-repeat: no-repeat;
 }
+/*    Upper Section    */
+
 .uppercontent{
   display: inline-flex;
   margin-top: 1%;
@@ -121,6 +123,37 @@ input[type=text] #comment{
   margin-top: 3%;
   margin-left: 25%;
 }
+/*    Lower Section    */
+.lowercontent h2 {
+  text-align: center;
+}
+.lowercontent h5 {
+  color: white !important;
+  font-size: 22px
+  font-weight: bold;
+}
+.lowercontent p {
+  font-size: 10px !important;
+}
+.cars {
+  display: inline-block;
+  margin-right: 10%;
+}
+.horses {
+  display: inline-block;
+    margin-right: 10%;
+}
+.bikes {
+  display: inline-block;
+}
+a {
+  color: #CDF41B;
+  font-weight: lighter;
+}
+
+
+
+
 /*                      Footer                  */
 
 footer{
