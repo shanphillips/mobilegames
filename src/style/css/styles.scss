@@ -180,7 +180,6 @@ a {
     text-align: justify;
     padding-left: 5%;
   }
-  }
   .right {
     width: 40%;
     padding-right: 1%;
@@ -190,17 +189,16 @@ a {
     }
   }
 }
-
 /*    S2 - Lower Section    */
-.lowercontenttwo{
+.lowercontenttwo {
   display: inline-block;
   h2 {
     font-size: 30px;
     color: white;
-    margin-left: 23%;
+    margin-left: 27%;
   }
-  .left {
-    width: 63%;
+  .text {
+    width: 62% !important;
     padding-left: 1%;
   }
   p {
@@ -208,12 +206,10 @@ a {
     font-weight: lighter;
     text-align: justify;
     display: initial;
-    padding-left: 5%;
   }
-  }
-  .right {
-    width: 36%;
-    padding-right: 1%;
+  .imagery {
+    width: 27%;
+    float: right;
     img {
       margin-top: 0;
       margin-left: 6%;
@@ -222,10 +218,9 @@ a {
 }
 /*                      Footer                  */
 
-footer{
+footer {
    height: 5%;
-}
-footer h5 {
+h5 {
   color: white;
   text-align: center;
 }
