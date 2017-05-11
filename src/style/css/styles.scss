@@ -155,67 +155,108 @@ a {
 .section-two {
   max-width: 100%;
   position: relative;
-  margin: 2% 0 0 0;
+  margin: 1% 1% 0 1%;
   background-image: url("/src/lib/img/Slanted-BeamBgd.png");
   background-position: center;
   background-repeat: no-repeat;
-}
+  h5 {
+    color: #CDF41B;
+    margin: 10px 0 0 46px;
+  }
 /*    S2 - Upper Section    */
 .uppercontenttwo {
   display: inline-block;
   h2 {
     font-size: 30px;
     color: white;
-    margin-left: 22%;
+    padding-left: 18%;
   }
-  .left {
-    width: 55%;
-    padding-left: 1%;
+  .themedgames {
+    width: 50%;
+    margin-left: 5%;
   p {
     font-size: 22px;
     font-weight: lighter;
     text-align: justify;
-    padding-left: 5%;
   }
-  }
-  .right {
-    width: 40%;
-    padding-right: 1%;
+}
+  .imagery {
+    width: 36%;
+    padding-left: 7%;
     img {
-      margin-top: 3%;
-      margin-left: 6%;
+      padding-top: 25px;
+    }
+    h4 {
+      color: #CDF41B;
+      margin-top: 1%;
     }
   }
 }
-/*    S2 - Lower Section    */
+/*    S2 - Upper Section    */
 .lowercontenttwo {
   display: inline-block;
   h2 {
     font-size: 30px;
     color: white;
-    margin-left: 27%;
+    padding-left: 18%;
   }
-  .left {
-    width: 65%;
-    padding-left: 1%;
-  }
-  img {
-    padding-left: 4%;
-  }
+  .keyfeatures {
+    width: 58%;
+    margin-left: 5%;
   p {
     font-size: 22px;
     font-weight: lighter;
     text-align: justify;
-    display: initial;
+    display: inline;
   }
+  img {
+
   }
-  .right {
-    width: 34%;
-    img {
-      margin-top: 0;
-      margin-left: 26%;
-    }
 }
+  .imagery {
+    width: 22%;
+    padding-left: 7%;
+    img {
+      padding-top: 25px;
+    }
+    h4 {
+      color: #CDF41B;
+      margin-top: 1%;
+    }
+    }
+  }
+}
+
+// }
+// /*    S2 - Lower Section    */
+// .lowercontenttwo {
+//   display: inline-block;
+//   h2 {
+//     font-size: 30px;
+//     color: white;
+//     margin-left: 27%;
+//   }
+//   .text {
+//     width: 65%;
+//     padding-left: 1%;
+//     img {
+//       padding-left: 4%;
+//   }
+//   p {
+//     font-size: 22px;
+//     font-weight: lighter;
+//     text-align: justify;
+//     display: initial;
+//   }
+//   }
+// }
+// .images {
+//     width: 34%;
+//     img {
+//       margin-top: 0;
+//       margin-left: 32%;
+//     }
+// }
 /*                      Footer                  */
 footer {
   height: 5%;
@@ -224,3 +265,63 @@ h5 {
   text-align: center;
 }
 }
+
+
+
+
+
+// .uppercontenttwo {
+//   display: inline-block;
+//   h2 {
+//     font-size: 30px;
+//     color: white;
+//     margin-left: 22%;
+//   }
+//   .left {
+//     width: 55%;
+//     padding-left: 1%;
+//   p {
+//     font-size: 22px;
+//     font-weight: lighter;
+//     text-align: justify;
+//     padding-left: 5%;
+//   }
+//   }
+//   .right {
+//     width: 40%;
+//     padding-right: 1%;
+//     img {
+//       margin-top: 3%;
+//       margin-left: 6%;
+//     }
+//   }
+// }
+// /*    S2 - Lower Section    */
+// .lowercontenttwo {
+//   display: inline-block;
+//   h2 {
+//     font-size: 30px;
+//     color: white;
+//     margin-left: 27%;
+//   }
+//   .text {
+//     width: 65%;
+//     padding-left: 1%;
+//     img {
+//       padding-left: 4%;
+//   }
+//   p {
+//     font-size: 22px;
+//     font-weight: lighter;
+//     text-align: justify;
+//     display: initial;
+//   }
+//   }
+// }
+// .images {
+//     width: 34%;
+//     img {
+//       margin-top: 0;
+//       margin-left: 32%;
+//     }
+// }
