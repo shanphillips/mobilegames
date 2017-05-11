@@ -3,7 +3,7 @@ body{
   background-color: black;
 }
 body, html {
-  height: 100%
+  height: 100%;
 }
 p {
   color: white;
@@ -45,13 +45,11 @@ p {
 .navigation .icon {
   display: none;
 }
-
-input[type=text] #comment{
+input[type=text] #comment {
   height: 50px;
 }
 
 /*                      Container                 */
-
 .slide-viewer {
   position: relative;
   overflow: hidden;
@@ -75,7 +73,6 @@ input[type=text] #comment{
 }
 
 /*       Section One        */
-
 .section-one {
   max-width: 100%;
   max-height: 1000px;
@@ -87,7 +84,7 @@ input[type=text] #comment{
   background-repeat: no-repeat;
 }
 /*    S1 - Upper Section    */
-.uppercontent{
+.uppercontent {
   display: inline-flex;
   margin-top: 1%;
 }
@@ -105,7 +102,7 @@ input[type=text] #comment{
   font-weight: lighter;
   text-align: justify;
 }
-.left{
+.left {
   width: 55%;
   display: inline-block;
 }
@@ -114,7 +111,7 @@ input[type=text] #comment{
   height: 8px;
   background: #CDF41B;
 }
-.right{
+.right {
   float: right;
   width: 45%;
 }
@@ -180,6 +177,7 @@ a {
     text-align: justify;
     padding-left: 5%;
   }
+  }
   .right {
     width: 40%;
     padding-right: 1%;
@@ -197,9 +195,12 @@ a {
     color: white;
     margin-left: 27%;
   }
-  .text {
-    width: 62% !important;
+  .left {
+    width: 65%;
     padding-left: 1%;
+  }
+  img {
+    padding-left: 4%;
   }
   p {
     font-size: 22px;
@@ -207,20 +208,19 @@ a {
     text-align: justify;
     display: initial;
   }
-  .imagery {
-    width: 27%;
-    float: right;
+  }
+  .right {
+    width: 34%;
     img {
       margin-top: 0;
-      margin-left: 6%;
+      margin-left: 26%;
     }
-  }
 }
 /*                      Footer                  */
-
 footer {
-   height: 5%;
+  height: 5%;
 h5 {
   color: white;
   text-align: center;
+}
 }
