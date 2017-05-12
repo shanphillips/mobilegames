@@ -232,16 +232,13 @@ a {
   max-width: 100%;
   position: relative;
   margin: 1% 1% 0 1%;
-  background-image: url("/src/lib/img/Enlarged-BeamBgd.png");
-  background-position: center;
-  background-repeat: no-repeat;
   .content{
+    width: 46%;
     float: right;
-  }
    h2 {
      font-size: 30px;
      color: white;
-     padding-left: 24%;
+     padding-left: 42%;
    }
    p {
      font-size: 22px;
@@ -253,11 +250,22 @@ a {
      width: 500px;
      height: 8px;
      background: white;
+     float: right;
+     margin-right: 2%;
+   }
+   strong {
+     color: #CDF41B;
    }
    img {
-     
+     padding-left: 26%;
    }
+ }
+ .background {
+   width: 50%;
+   float: left;
+ }
 }
+
 /*                    Footer                  */
 footer {
   height: 5%;
