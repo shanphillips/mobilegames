@@ -198,10 +198,10 @@ a {
   h2 {
     font-size: 30px;
     color: white;
-    padding-left: 18%;
+    padding-left: 24%;
   }
   .keyfeatures {
-    width: 58%;
+    width: 55%;
     margin-left: 5%;
   p {
     font-size: 22px;
@@ -209,19 +209,20 @@ a {
     text-align: justify;
     display: inline;
   }
-  img {
-
-  }
 }
   .imagery {
-    width: 22%;
+    width: 26%;
+    float: right;
     padding-left: 7%;
     img {
       padding-top: 25px;
+      margin-left: 22%;
+      position: static;
     }
     h4 {
       color: #CDF41B;
       margin-top: 1%;
+      margin-left: 22%;
     }
     }
   }
