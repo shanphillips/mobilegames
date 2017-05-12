@@ -227,38 +227,38 @@ a {
     }
   }
 }
-
-// }
-// /*    S2 - Lower Section    */
-// .lowercontenttwo {
-//   display: inline-block;
-//   h2 {
-//     font-size: 30px;
-//     color: white;
-//     margin-left: 27%;
-//   }
-//   .text {
-//     width: 65%;
-//     padding-left: 1%;
-//     img {
-//       padding-left: 4%;
-//   }
-//   p {
-//     font-size: 22px;
-//     font-weight: lighter;
-//     text-align: justify;
-//     display: initial;
-//   }
-//   }
-// }
-// .images {
-//     width: 34%;
-//     img {
-//       margin-top: 0;
-//       margin-left: 32%;
-//     }
-// }
-/*                      Footer                  */
+/*       Section Three        */
+.section-three {
+  max-width: 100%;
+  position: relative;
+  margin: 1% 1% 0 1%;
+  background-image: url("/src/lib/img/Enlarged-BeamBgd.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  .content{
+    float: right;
+  }
+   h2 {
+     font-size: 30px;
+     color: white;
+     padding-left: 24%;
+   }
+   p {
+     font-size: 22px;
+     font-weight: lighter;
+     text-align: justify;
+     display: inline;
+   }
+   #rectangle {
+     width: 500px;
+     height: 8px;
+     background: white;
+   }
+   img {
+     
+   }
+}
+/*                    Footer                  */
 footer {
   height: 5%;
 h5 {
