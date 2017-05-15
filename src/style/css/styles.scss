@@ -4,6 +4,7 @@ body{
 }
 body, html {
   height: 100%;
+  width: 100%;
 }
 p {
   color: white;
@@ -75,9 +76,8 @@ input[type=text] #comment {
 /*       Section One        */
 .section-one {
   max-width: 100%;
-  max-height: 1000px;
   position: relative;
-  margin: 2% 0 0 0;
+  margin: 1% 1% 1% 1%;
   padding-left: 20px;
   background-image: url("/src/lib/img/Beam-FadedBgd.png");
   background-position: center;
@@ -155,7 +155,7 @@ a {
 .section-two {
   max-width: 100%;
   position: relative;
-  margin: 1% 1% 0 1%;
+  margin: 1% 1% 1% 1%;
   background-image: url("/src/lib/img/Slanted-BeamBgd.png");
   background-position: center;
   background-repeat: no-repeat;
@@ -201,7 +201,7 @@ a {
     padding-left: 24%;
   }
   .keyfeatures {
-    width: 55%;
+    width: 63%;
     margin-left: 5%;
   p {
     font-size: 22px;
@@ -211,11 +211,9 @@ a {
   }
 }
   .imagery {
-    width: 26%;
+    width: 25%;
     float: right;
-    padding-left: 7%;
     img {
-      padding-top: 25px;
       margin-left: 22%;
       position: static;
     }
@@ -231,10 +229,19 @@ a {
 .section-three {
   max-width: 100%;
   position: relative;
-  margin: 1% 1% 0 1%;
+  margin: 1% 1% 1% 1%;
+  .background {
+    width: 0%;
+    float: left;
+    img {
+      max-height: 900px;
+      margin-left: 7%
+    }
+  }
   .content{
-    width: 46%;
+    width: 48%;
     float: right;
+    margin-right: 2%;
    h2 {
      font-size: 30px;
      color: white;
@@ -260,107 +267,14 @@ a {
      padding-left: 26%;
    }
  }
- .background {
-   width: 50%;
-   float: left;
- }
-}
-/*       Section Four        */
-.section-four {
-  max-width: 100%;
-  position: relative;
-  margin: 1% 1% 0 1%;
-  background-image: url("/src/lib/img/Scattered-BeamBgd.png");
-  background-position: center;
-  background-repeat: no-repeat;
-  .title{
-    width: 100%;
-    height: 30%;
-  h2 {
-    font-size: 30px;
-    color: white;
-    padding-left: 42%;
-  }
-  p {
-    font-size: 22px;
-    font-weight: lighter;
-    text-align: justify;
-    display: inline;
-  }
-  }
-  .promotional-games {
-    width: 50%;
-  }
-  .other-games {
-    width: 50%;
-  }
 }
 
 /*                    Footer                  */
 footer {
-  height: 5%;
-h5 {
+  max-width: 100%;
+  position: relative;
+p {
   color: white;
   text-align: center;
 }
 }
-
-
-
-
-
-// .uppercontenttwo {
-//   display: inline-block;
-//   h2 {
-//     font-size: 30px;
-//     color: white;
-//     margin-left: 22%;
-//   }
-//   .left {
-//     width: 55%;
-//     padding-left: 1%;
-//   p {
-//     font-size: 22px;
-//     font-weight: lighter;
-//     text-align: justify;
-//     padding-left: 5%;
-//   }
-//   }
-//   .right {
-//     width: 40%;
-//     padding-right: 1%;
-//     img {
-//       margin-top: 3%;
-//       margin-left: 6%;
-//     }
-//   }
-// }
-// /*    S2 - Lower Section    */
-// .lowercontenttwo {
-//   display: inline-block;
-//   h2 {
-//     font-size: 30px;
-//     color: white;
-//     margin-left: 27%;
-//   }
-//   .text {
-//     width: 65%;
-//     padding-left: 1%;
-//     img {
-//       padding-left: 4%;
-//   }
-//   p {
-//     font-size: 22px;
-//     font-weight: lighter;
-//     text-align: justify;
-//     display: initial;
-//   }
-//   }
-// }
-// .images {
-//     width: 34%;
-//     img {
-//       margin-top: 0;
-//       margin-left: 32%;
-//     }
-// }
